@@ -1,6 +1,6 @@
 hamburgerButton.addEventListener("click", () => {
-    navbar();
+    navbarFunctionality();
 });
 closeIcon.addEventListener("click", () => {
-    navbar();
+    navbarFunctionality();
 });

@@ -1,9 +1,9 @@
 let sidebarOpen = false;
 const hamburgerButton = document.getElementsByClassName("hamburger-icon")[0];
-const closeIcon = document.getElementById("close-icon");
+const closeIcon = document.getElementsByClassName("close-icon")[0];
 const sidebar = document.getElementsByClassName("sidebar")[0];
 
-function navbar() {
+function navbarFunctionality() {
     if (sidebarOpen) {
         sidebar.classList.remove("hide");
     } else {
